@@ -4,16 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Psychic Game</title>
 </head>
 <body>
+    <div class="jumbotron bg-primary text-center" style="height: 100px;">
+         <h1 class=" col display-4 text-center text-white font-weight-bold">Psychic Game!</h1>
+    </div>
+
+    <div class="card mx-auto shadow-md p-3 mb-5 bg-white rounded" style="width: 30%; height: 70%;">
+            <img class="card-img-top img-fluid " src="./assets/Img/download.jpg" alt="Card image cap">
+            <div class=" col card-body">
+                <p class="display-4 text-center font-weight-bold" id="directions-text">Let's play! Press any letter...</p>
+                <p class="text-center font-weight-bold" style="font-size: 20px;" id="userchoice-text"></p>
+                <p class="text-center font-weight-bold" style="font-size: 20px;" id="computerchoice-text"></p>
+                <p class="text-center font-weight-bold" style="font-size: 20px;" id="wins-text"></p>
+                <p class="text-center font-weight-bold" style="font-size: 20px;" id="losses-text"></p>
+                <p class="text-center font-weight-bold" style="font-size: 20px;" id="userSelected-text"></p>
+                <p class="text-center font-weight-bold" style="font-size: 20px;" id="guessesleft-text"></p>
+            </div>
+          </div>
     <div>
-        <p id="directions-text">Press r, p or s to start playing!</p>
-        <p id="userchoice-text"></p>
-        <p id="computerchoice-text"></p>
-        <p id="wins-text"></p>
-        <p id="losses-text"></p>
-        <p id="userSelected-text"></p>
+
+    <style>
+    body {
+        background-color: aqua;
+    }
+    </style>
+       
       </div>    
       <script src="./assets/Javascript/game.js"></script>     
 </body>
